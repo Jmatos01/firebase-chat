@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+
+    button{
+        background-color: #008CBA;
+        font-size: 16px;
+        padding: 12px 28px;
+        border-radius: 8px;
+        width: 250px;
+        color: white;
+    }
+    input {
+        border-radius: 4px;
+        background-color: #3CBC8D;
+        color: white;
+        font-size: 16px;
+        padding: 12px 28px;
+        border-radius: 8px;
+        width: 250px;
+      }
+      .fas {
+        position: absolute;
+        top: 0;
+      }
+}

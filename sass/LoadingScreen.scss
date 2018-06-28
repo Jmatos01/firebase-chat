@@ -1,0 +1,9 @@
+.loading-screen{
+    background: linear-gradient(to right, rgb(43, 165, 124) , rgb(7, 110, 228));
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}

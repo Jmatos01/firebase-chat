@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+input{
+    border-radius: 4px;
+    background-color: #3CBC8D;
+    color: white;
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+button{
+    background-color: #008CBA;
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    width: 250px;
+    color: white;
+}
+
+
+.sign-up-screen{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fas{
+    position: absolute;
+    top: 0;
+}
+
+.chat-header {
+    height: 50px;
+    background-color:lightskyblue;
+    padding: 0px 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.send{
+    height: 50px;
+    background-color: lightblue;
+    padding: 0px 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messages-container{
+    flex: 1;
+    background-color:lightblue;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.chat-screen-input-container{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+
+.chat-screen-input{
+    border: 1px solid;
+    flex:1;
+}
+
+.chat-screen{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-screen-send-msg-btn{
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

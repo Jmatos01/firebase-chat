@@ -1,0 +1,14 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chatapp",
+  "private": true,
+  "scripts": {
+    "start": "reload -b --port 8025"
+  },
+  "author": "John Matos",
+  "license": "ISC",
+  "dependencies": {
+    "reload": "^2.3.0"
+  }
+}
